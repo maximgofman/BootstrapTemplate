@@ -13,6 +13,8 @@
 }
 
 .navbar_box {
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
   display: Flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -36,6 +38,15 @@
 
 .active {
   background-color: #DC4463;
+  color: white;
+}
+
+.active a {
+  color: white;
+  text-decoration: none;
+}
+
+.active a:hover {
   color: white;
 }
 
@@ -95,6 +106,8 @@
 }
 
 .usp_region .usp {
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
   height: 140px;
   width: 22.5%;
   border-color: rgba(255, 255, 255, 0.418);

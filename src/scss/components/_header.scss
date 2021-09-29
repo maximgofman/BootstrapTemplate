@@ -6,9 +6,10 @@
     display:flex;
     justify-content: flex-end;
     padding-right:50px;
-
+   
 }
 .navbar_box{
+    transition: all 100ms;
     display:Flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +32,16 @@
 
     background-color: #DC4463;
     color:white;
+
+    a{
+     color:white;
+     text-decoration: none;  
+     
+     &:hover{
+         color:white;
+         
+     }
+    }
 
 
 }
