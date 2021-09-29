@@ -1,0 +1,68 @@
+.usp_region{
+    margin-top:80px;
+    height:220px;
+    width:auto;
+    display:Flex;
+    justify-content:space-around;
+    align-items: center;
+
+
+
+
+    .usp{
+        height:140px;
+        width:22.5%;
+       border-color:rgba(255, 255, 255, 0.418);
+       border-style: solid;
+       border-width: 0.01px;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+
+       svg{
+           height:40px;
+           width: 40px;
+           color:white;
+          //* color: #DC4463;
+       }
+       p{
+        color:white;
+        margin-top: 10px;
+        font-weight: 800;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color:white;
+       }
+    }
+}
+
+
+
+.usp_active{
+    height:140px;
+    width:22.5%;
+   border-color:rgba(255, 255, 255, 0.418);
+   border-style: solid;
+   background-color: white;
+   border-width: 0.01px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   svg{
+       height:40px;
+       width: 40px;
+       color:#DC4463;
+      //* color: ;
+   }
+   p{
+    color:white;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:Black;
+   }
+}

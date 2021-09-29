@@ -1,3 +1,9 @@
-body{
-    background:red;
+.background{
+    height: 1500px;
+    width: 100%;
+    background: rgb(14,54,112);
+    background: -moz-linear-gradient(160deg, rgba(14,54,112,1) 0%, rgba(14,54,112,1) 50%, rgba(243,73,152,1) 100%);
+    background: -webkit-linear-gradient(160deg, rgba(14,54,112,1) 0%, rgba(14,54,112,1) 50%, rgba(243,73,152,1) 100%);
+    background: linear-gradient(160deg, rgba(14,54,112,1) 0%, rgba(14,54,112,1) 50%, rgba(243,73,152,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e3670",endColorstr="#f34998",GradientType=1);
 }
