@@ -20,6 +20,12 @@
     color:grey;
     margin-left:70px;
 
+    &:hover{
+        cursor: pointer;
+        background-color: #DC4463;
+        color:white;
+    }
+
 }
 .active{
 
@@ -28,3 +34,4 @@
 
 
 }
+

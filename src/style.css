@@ -28,6 +28,12 @@
   margin-left: 70px;
 }
 
+.navbar_box:hover {
+  cursor: pointer;
+  background-color: #DC4463;
+  color: white;
+}
+
 .active {
   background-color: #DC4463;
   color: white;
@@ -124,6 +130,26 @@
   color: white;
 }
 
+.usp_region .usp:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.usp_region .usp:hover svg {
+  height: 40px;
+  width: 40px;
+  color: #DC4463;
+}
+
+.usp_region .usp:hover p {
+  color: white;
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: Black;
+}
+
 .usp_active {
   height: 140px;
   width: 22.5%;
@@ -216,5 +242,61 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-top: 35px;
+}
+
+.container {
+  -webkit-animation-name: start;
+          animation-name: start;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes start {
+  0% {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+
+@keyframes start {
+  0% {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+
+.header {
+  -webkit-animation-name: head_anim;
+          animation-name: head_anim;
+  -webkit-animation-duration: 1.1s;
+          animation-duration: 1.1s;
+}
+
+@-webkit-keyframes head_anim {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes head_anim {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
 /*# sourceMappingURL=style.css.map */
